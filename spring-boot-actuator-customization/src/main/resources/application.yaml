@@ -1,0 +1,5 @@
+management:
+  security:
+    enabled: false
+  trace:
+    include: remote_address, parameters
