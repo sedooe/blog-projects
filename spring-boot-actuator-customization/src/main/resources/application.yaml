@@ -2,4 +2,4 @@ management:
   security:
     enabled: false
   trace:
-    include: remote_address, parameters
+    include: remote_address, parameters, request_headers, response_headers
